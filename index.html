@@ -325,8 +325,8 @@ body.prompts-off .cue-pulse{outline:none!important;animation:none}
 .prow .k i{font:700 8.5px var(--mono);font-style:normal;letter-spacing:.06em;color:var(--sy-violet);background:var(--sy-lav);border-radius:3px;padding:0 4px;margin-left:4px;vertical-align:1px}
 .prow .v{font-weight:600;word-wrap:break-word;color:var(--sy-navy)}
 .prow .v.good{color:var(--sy-green)} .prow .v.warn{color:var(--sy-warn)} .prow .v.muted{color:#9aa8b0;font-weight:400}
-.prow.flash{animation:flash 1.2s ease}
-@keyframes flash{0%{background:rgba(31,184,122,.22)}100%{background:transparent}}
+.prow.flash{animation:flash 3.5s ease-out}
+@keyframes flash{0%,55%{background:rgba(31,184,122,.3);box-shadow:inset 3px 0 0 #1fb87a}100%{background:transparent;box-shadow:inset 3px 0 0 transparent}}
 .pnl-f{padding:8px 14px;border-top:1px solid var(--sy-line);font:10.5px var(--mono);color:var(--sy-muted)}
 .cora .pnl-h{background:linear-gradient(90deg,rgba(238,232,253,.85),rgba(255,255,255,.6) 60%,rgba(205,243,238,.7))}
 .cora .pnl-h b span{font:400 12px var(--sans);color:var(--sy-muted);margin-left:6px}
